@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pengalaman</title>
-</head>
+    <title>Pengalaman Saya</title>
 
+    <style type="text/css">
+      body {background-color:burlywood}
+      .para {color: green;}
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
-    <h1>Pengalaman</h1>
+    <!-- bagian header -->
+  <header>
+    <h1>Ayu Indahsari</h1>
+  </header>
+    
     
     <form>
       <p>Activities :</p>
@@ -18,11 +27,30 @@
     <label for="universitas semarang">Universitas Semarang</label>
     <input type="radio" name="company" id="UD. montecarlo">
     <label for="UD. montecarlo">UD. Montecarlo</label>
-    <div>
-        <input type="submit" value="Kirim">
-        <input type="reset" value="Reset">
-    </div>
+
+    <style>
+      .btn-delete {
+        border-radius: 5px;
+        color: white;
+        border: 1px solid gray;
+        padding: 5px;
+        background-color: red;
+      }
+
+      .btn-save {
+        border-radius: 5px;
+        color: white;
+        border: 1px solid gray;
+        padding: 5px;
+        background-color: green;
+      }
+    </style>
+    <body>
+      <button class="btn-delete">Hapus</button>
+      <button class="btn-save">Simpan</button>
+    </body>
     </form>
+
     <table border="2">
         <tr>
           <th>No</th>
@@ -56,7 +84,18 @@
         </tr>
       </table>
       <button>
+        <h4>Link Biodata</h4>
         <a href="./biodata.html">Biodata</a>
       </button>
+
+      <body>
+        <!-- inline -->
+      <p style="color:brown;font-weight: bold;">Saya merupakan mahasiswa akuntansi Universitas Semarang</p>
+      <!-- internal -->
+      <p class="para">Saya merupakan mahasiswa akuntansi Universitas Semarang</p>
+      <!-- external -->
+      <p class="para-external">Saya merupakan mahasiswa akuntansi Universitas Semarang</p>
+      </body>
+      
 </body>
 </html>

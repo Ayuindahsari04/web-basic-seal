@@ -1,0 +1,18 @@
+.para {
+    color: royalblue;
+    margin-bottom: 50px;
+    border: 1px solid blueviolet
+    padding: 20px 20px 0 0;
+}
+.para-eksternal {
+    color: goldenrod;
+    margin-bottom: 50px;
+    border: 1px solid blueviolet
+    padding: 20px;
+}
+
+.box {
+    border: 1px solid palevioletred;
+    height: 100px;
+    width: 100px;
+}
