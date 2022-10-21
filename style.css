@@ -11,8 +11,29 @@
     padding: 20px;
 }
 
-.box {
-    border: 1px solid palevioletred;
-    height: 100px;
-    width: 100px;
+.IMG_4138-min{
+    width:250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.title{
+    font-family: 'Raleway' , sans-serif;
+}
+
+.subtitle{
+    letter-spacing: 10px;
+}
+
+#hero{
+    height:   95vh;
+}
+
+.text-about{
+    text indent:  50px;
+    text-align: justify;
+}
+
+.card-img-top{
+    height: 150px;
 }
